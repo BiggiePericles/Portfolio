@@ -1,3 +1,5 @@
+# Portfolio Pessoal
+
 Portfolio pessoal desenvolvido em HTML e CSS.
 
 ## Sobre
@@ -9,4 +11,4 @@ Basta abrir o arquivo `index.html` em qualquer navegador moderno para visualizar
 ## Estrutura
 - `index.html`: Página principal do portfolio.
 - `style.css`: Estilos visuais do site.
-- `README.txt`: Informações sobre o projeto.
+- `README.md`: Informações sobre o projeto.
