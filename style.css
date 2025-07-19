@@ -1,0 +1,114 @@
+/* ========================= */
+/* Estilo geral do corpo     */
+/* ========================= */
+body {
+    font-family: Arial, sans-serif; /* Fonte principal */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor padrão do texto */
+}
+
+/* ========================= */
+/* Cabeçalho do site         */
+/* ========================= */
+header {
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    padding: 1em 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* ========================= */
+/* Lista de navegação        */
+/* ========================= */
+nav ul {
+    padding: 0; /* Remove padding padrão */
+    list-style: none; /* Remove marcadores da lista */
+}
+
+/* ========================= */
+/* Itens do menu de navegação*/
+/* ========================= */
+nav ul li {
+    display: inline; /* Exibe os itens lado a lado */
+    margin: 0 1em; /* Espaçamento entre os itens */
+}
+
+/* ========================= */
+/* Links do menu de navegação*/
+/* ========================= */
+nav a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* ========================= */
+/* Conteúdo principal        */
+/* ========================= */
+main {
+    padding: 20px; /* Espaçamento interno */
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+/* ========================= */
+/* Seções do site            */
+/* ========================= */
+section {
+    margin-bottom: 2em; /* Espaço entre seções */
+    padding: 1em; /* Espaçamento interno */
+    background-color: #fff; /* Fundo branco para destaque */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* ========================= */
+/* Card de cada projeto      */
+/* ========================= */
+.projeto {
+    margin-bottom: 1.5em; /* Espaço entre projetos */
+    padding: 1em; /* Espaçamento interno */
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+/* Título de cada projeto */
+.projeto h3 {
+    color: #0056b3; /* Azul para destaque */
+}
+
+/* Botão/link de cada projeto */
+.projeto a {
+    display: inline-block; /* Permite aplicar padding e margin */
+    margin-top: 0.5em; /* Espaço acima do botão */
+    padding: 0.5em 1em; /* Espaçamento interno do botão */
+    background-color: #007bff; /* Fundo azul */
+    color: #fff; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* ========================= */
+/* Rodapé do site            */
+/* ========================= */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 1em 0; /* Espaçamento interno */
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+}
+
+/* ========================= */
+/* Estilos Responsivos       */
+/* ========================= */
+/*
+   Esta media query ajusta o menu de navegação para telas menores (até 768px),
+   exibindo os itens do menu em bloco (um abaixo do outro) para melhor usabilidade em dispositivos móveis.
+*/
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
